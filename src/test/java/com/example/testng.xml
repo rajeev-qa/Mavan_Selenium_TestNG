@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="MyTest">
+        <classes>
+            <class name="com.example.Test_Data"/>
+            <class name="com.example.Logout"/>
+            <class name="com.example.Delete_Package"/>
+            <class name="com.example.Test_Login"/>
+            <class name="com.example.Add_Package"/>
+			
+            <!-- Add more test classes if needed -->
+        </classes>
+    </test>
+</suite>
